@@ -3,4 +3,4 @@
 Trabalho UNOPAR - ADS (Francesco)
 Disciplina: Desenvolvimento Mobile
 
-![Hamburguer](https://raw.githubusercontent.com/Tiiesco/hamburgueriaz/main/app/src/main/res/drawable/screenshot.png)
+![Hamburguer](https://github.com/Tiiesco/hamburgueriaz/blob/main/app/src/main/res/drawable/screenshot.png?raw=true)
