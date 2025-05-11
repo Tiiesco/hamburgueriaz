@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HamburgueriaZ</string>
+    <string name="hamburguerlaz">HamburgueriaZ</string>
+    <string name="fa_a_seu_pedido">FAÇA SEU PEDIDO!</string>
+    <string name="nome">Nome</string>
+    <string name="digite_seu_nome">Digite seu nome</string>
+    <string name="adicionais">Adicionais:</string>
+    <string name="bacon">Bacon</string>
+    <string name="onion_rings">Onion Rings</string>
+    <string name="traco">-</string>
+    <string name="quantidade">QUANTIDADE</string>
+    <string name="_0">0</string>
+    <string name="plus_symbol">+</string>
+    <string name="resumo_do_pedido">RESUMO DO PEDIDO</string>
+    <string name="enviar_pedido">ENVIAR PEDIDO</string>
+    <string name="queijo">Queijo</string>
+    <string name="hamburgerDescription">Hamburger</string>
+</resources>

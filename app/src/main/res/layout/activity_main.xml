@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#332778"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hamburguerlaz"
+        android:layout_marginTop="5dp"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+    <!-- imagem do hambúrguer  -->
+    <ImageView
+        android:id="@+id/imageViewHamburger"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/hamburgerDescription"
+        android:src="@drawable/hamburger" />
+    <TextView
+        style="@style/EstiloTexto"
+        android:text="@string/fa_a_seu_pedido" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nome" />
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/digite_seu_nome" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/adicionais" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBacon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bacon" />
+
+    <CheckBox
+        android:id="@+id/checkBoxQueijo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/queijo" />
+
+    <CheckBox
+        android:id="@+id/checkBoxOnionRings"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onion_rings" />
+
+    <TextView
+        style="@style/EstiloTexto"
+        android:text="@string/quantidade" />
+
+    <LinearLayout
+        android:layout_width="267dp"
+        android:layout_height="43dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDecrementar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/traco" />
+
+        <TextView
+            android:id="@+id/textViewQuantidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/_0" />
+
+        <Button
+            android:id="@+id/btnIncrementar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plus_symbol" />
+    </LinearLayout>
+
+    <TextView
+        style="@style/EstiloTexto"
+        android:text="@string/resumo_do_pedido" />
+
+    <TextView
+        android:id="@+id/textViewResumo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C7C6C6"
+        android:minHeight="100dp"
+        android:padding="8dp"
+        android:textColor="#141212" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/enviar_pedido"
+        android:textColor="#FBEDC5" />
+
+</LinearLayout>
